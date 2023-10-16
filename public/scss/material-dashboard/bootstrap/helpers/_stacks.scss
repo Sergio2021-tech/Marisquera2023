@@ -1,0 +1,15 @@
+// scss-docs-start stacks
+.hstack {
+  overflow: auto;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+}
+
+.vstack {
+  overflow: auto;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-self: stretch;
+}
+// scss-docs-end stacks
